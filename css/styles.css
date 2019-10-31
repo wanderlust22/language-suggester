@@ -20,3 +20,11 @@ button {
 #ifOrange, #ifEpicodus, #ifElse {
   display: none;
 }
+
+body {
+  background-color: #c4b225;
+}
+
+.jumbotron {
+  background-color: #bfd918;
+}
