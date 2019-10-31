@@ -16,3 +16,7 @@ img {
 button {
   margin-top: 50px;
 }
+
+#ifOrange, #ifEpicodus, #ifElse {
+  display: none;
+}
