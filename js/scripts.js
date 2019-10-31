@@ -1,10 +1,12 @@
 $(document).ready(function(){
-  $(".fullForm").submit(function(event){
+  $(".theForm").submit(function(event){
     event.preventDefault();
-    $("#toHide").hide();
+    $(".theForm").hide();
 
-    if ()
+    if(document.getElementById('#orange').checked) {
+    $("#ifOrange").show();
+  } else if()
+  }
 
-  });
-
+});
 });

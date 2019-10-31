@@ -15,45 +15,45 @@
     <div class="container">
       <img src="https://media.istockphoto.com/photos/binary-code-picture-id122204403?k=6&m=122204403&s=612x612&w=0&h=3_AdADaBrOZFIeAYhBA-u0-C6ZSrpMyD1FEX3uMdkC0=" alt="A picture of binary code">
     </div>
-    <div class="container">
-      <div class="row" id="toHide>
+    <div id="toHide" class="container">
+      <div class="row">
         <div class="col-md-6">
           <h4>Begin Survey to Find the Perfect Tools for You</h4>
 
         </div>
         <div class="col-md-6">
-          <form class="fullForm">
-            <form>
+          <form class="theForm">
+            <div class="form-group">
               <label for="color">What is your favorite color?</label><br>
               <input type="checkbox" name="blue" value="blue">Blue<br>
               <input type="checkbox" name="green" value="green">Green<br>
-              <input type="checkbox" name="orange" value="orange">Orange<br>
-            </form>
-            <form>
+              <input type="checkbox" name="orange" value="orange" id="#orange">Orange<br>
+            </div>
+            <div class="form-group">
               <label for="gender">Select a Gender</label><br>
               <input type="radio" name="gender" value="female">Female<br>
               <input type="radio" name="gender" value="male">Male<br>
               <input type="radio" name="gender" value="other">Other<br>
-            </form>
-            <form>
+            </div>
+            <div class="form-group">
               <label for="town">Are you more of a city person, or a country person?</label><br>
               <input type="radio" name="population" value="city">City<br>
               <input type="radio" name="population" value="country">Country<br>
-            </form>
-            <form>
+            </div>
+            <div class="form-group">
               <label for="living">Do you like to live on the coast or in middle-america?</label>
               <p>Write "coast" or "midwest"</p>
               <input type="text" name="state">
-            </form>
-            <form>
+            </div>
+            <div class="form-group">
               <label for="education">Where are you learning to program?</label>
               <p>Write "college" or "epicodus"</p>
               <input type="text" name="learn">
-            </form>
-            <button type="submit" name="button">Find your Language!</button>
+            </div>
+            <button type="submit" name="formButton">Find your Language!</button>
           </form>
           </div>
-        </div>
+
 
     <div class="container">
       <p id="ifOrange">You should learn Rust because your favorite color is orange!</p>
